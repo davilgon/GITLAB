@@ -18,7 +18,7 @@ int main()
         scanf("%s",&name);
         if (strcmp(name,"STOP")==0)
         {
-            printf("Good Bye!\n");
+            printf("Good Bye! See you again\n");
             break;
         }
 
