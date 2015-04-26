@@ -12,7 +12,7 @@ int main()
 
     do
     {
-        printf("\n\nEnter number 2-19 (0 to QUIT) : ");
+        printf("\n\nEnter number 2-29 (0 to QUIT) : ");
         scanf("%d",&number);
 
         if (number>=2 && number<=19) //2-19 case
@@ -28,7 +28,7 @@ int main()
                 printf("%5d",i*number);
             }
         }
-        else if (number==0) printf("Have a nice day!!!"); //QUIT case
+        else if (number==0) printf("Goodluck!!!"); //QUIT case
         else printf("Input Error. Enter 0 to QUIT or number between 2-19."); //Error case
 
     }
