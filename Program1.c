@@ -15,7 +15,7 @@ int main()
         printf("\n\nEnter number 2-29 (0 to QUIT) : ");
         scanf("%d",&number);
 
-        if (number>=2 && number<=19) //2-19 case
+        if (number>=2 && number<=29) //2-19 case
         {
             printf("\nMultiplication Table for %d\n",number);
             for(i=1;i<=12;i++)
@@ -28,8 +28,13 @@ int main()
                 printf("%5d",i*number);
             }
         }
+<<<<<<< HEAD
         else if (number==0) printf("Goodluck!!!"); //QUIT case
         else printf("Input Error. Enter 0 to QUIT or number between 2-19."); //Error case
+=======
+        else if (number==0) printf("Have a nice day!!!"); //QUIT case
+        else printf("Input Error. Enter 0 to QUIT or number between 2-29."); //Error case
+>>>>>>> 416eb48f406ec67420b8a36305344be9a220dd9b
 
     }
     while(number!=0);
