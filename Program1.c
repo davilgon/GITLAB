@@ -33,6 +33,6 @@ int main()
 
     }
     while(number!=0);
-
+printf("End of program");
 return 0;
 }
